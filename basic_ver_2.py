@@ -193,7 +193,7 @@ def quadratic_sieve(n: int, B0: int | None = None):
 # Demo block
 # --------------------------------------------------
 if __name__ == "__main__":
-    n = 16921456439215439701 # problematic 7‑digit example
+    n = 10000019*98765431# problematic 7‑digit example
     print(f"Factoring {n}…")
     f = quadratic_sieve(n)
     print(f"→ {n} = {f} × {n//f}")
