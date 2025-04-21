@@ -1,8 +1,5 @@
 # Pure‑Python Quadratic Sieve + Pollard‑Brent prefilter
 # =====================================================
-#  – comfortable up to ≈ 20‑digit semiprimes on a laptop
-#  – no 3rd‑party libraries, single file
-#  – logarithmic block‑sieve (fast), binary‑matrix null‑space
 
 from __future__ import annotations
 import math, random
